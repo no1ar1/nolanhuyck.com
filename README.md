@@ -27,4 +27,4 @@ The static site is exported to `out/`.
 
 ## Vercel
 
-Import `no1ar1/nolanhuyck.com` into Vercel. Use the Next.js framework preset, `npm run build`, and the `out` output directory. Add `nolanhuyck.com` in project domain settings and apply the DNS records Vercel provides. No environment variables are required.
+Import `no1ar1/nolanhuyck.com` into Vercel. Use the Next.js framework preset and `npm run build`. Leave the output directory override disabled so Vercel handles the static export automatically. Add `nolanhuyck.com` in project domain settings and apply the DNS records Vercel provides. No environment variables are required.
