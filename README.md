@@ -20,10 +20,9 @@ npm run build
 
 The static site is exported to `out/`.
 
-## Before publishing
+## Profile links
 
-- Add the actual resume at `public/Nolan_Huyck_Resume.pdf`. It was not supplied with the build prompt, so no substitute resume is included.
-- Replace `LINKEDIN_URL_PLACEHOLDER` in `app/components.tsx` with the intended profile URL.
+The resume is included at `public/Nolan_Huyck_Resume.pdf`. LinkedIn links point to `https://www.linkedin.com/in/nolanhuyck/`.
 
 ## Vercel
 
