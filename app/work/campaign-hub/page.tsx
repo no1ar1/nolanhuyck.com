@@ -5,7 +5,7 @@ import MarginDiagram from '../../margin-diagram';
 export const metadata: Metadata = {
   title: 'Campaign Hub | Nolan Huyck',
   description: 'Per-product margin intelligence for Google Shopping',
-  openGraph: { title: 'Campaign Hub | Nolan Huyck', description: 'Per-product margin intelligence for Google Shopping', url: '/work/campaign-hub', type: 'article', siteName: 'Nolan Huyck' },
+  openGraph: { title: 'Campaign Hub | Nolan Huyck', description: 'Per-product margin intelligence for Google Shopping', url: '/work/campaign-hub', type: 'article', siteName: 'Nolan Huyck', images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Nolan Huyck — AI systems and internal tools' }] },
   alternates: { canonical: '/work/campaign-hub' },
 };
 
