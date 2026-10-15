@@ -11,7 +11,7 @@ export default function Home() {
       <nav className="links small" aria-label="Profile"><SocialLinks resume /></nav>
     </header>
     <main>
-      <p className="intro">I build AI systems and internal tools, concept to production, on my own. Most of what I&apos;ve shipped solves the same shape of problem: data that lives in three systems nobody has joined, or manual work that should be a pipeline. Currently taking fixed-scope contract projects.</p>
+      <p className="intro">I build AI systems end to end, from retrieval pipelines to production deployment. I’m a computer science sophomore at Michigan State, formerly at Stellantis and now a research assistant at MSU’s Terrorism, Extremism and Cybercrime Lab. Currently taking fixed-scope contract projects.</p>
       <Section title="Work">
         <article className="project">
           <h3><span className="project-index" aria-hidden="true">01</span><a href="/work/campaign-hub/">Campaign Hub</a></h3>
@@ -30,7 +30,7 @@ export default function Home() {
         <article className="project">
           <h3><span className="project-index" aria-hidden="true">03</span>Stone Call</h3>
           <p className="descriptor">AI voice receptionist for small service businesses</p>
-          <p>An end-to-end SaaS that answers calls, books appointments, and confirms by SMS. Authentication, onboarding, subscription billing, voice agents, and calendar booking APIs. In production since October 2025.</p>
+          <p>An end-to-end SaaS that answers calls, books appointments, and confirms by SMS. Authentication, onboarding, subscription billing, voice agents, and calendar booking APIs. In production since October 2025. Handles live inbound calls at a 675 ms voice response time, with booking written straight into Outlook and Google Calendar. 250+ calls in its first three months.</p>
           <p className="stack small muted">Stack: Next.js, Supabase, Stripe, Twilio/Vapi, n8n, Microsoft Graph</p>
         </article>
       </Section>
@@ -41,10 +41,12 @@ export default function Home() {
         <li>External services fail. Retries, backoff, and durable queues are the default, not a later concern.</li>
       </ul></Section>
       <Section title="Experience">
-        <article className="experience"><h3>Stellantis</h3><p className="descriptor">AI / Software Development Intern, Summer 2026</p><p>Built internal AI tools for the Jeep and Dodge business units, and retrieval-augmented generation systems in Databricks for knowledge retrieval across internal document sets.</p></article>
-        <article className="experience"><h3>Stone Call LLC</h3><p className="descriptor">Founder, 2025 to present</p><p>Operate an LLC shipping AI products end to end, owning product, architecture, infrastructure, and go-to-market.</p></article>
+        <article className="experience"><h3>MSU Terrorism, Extremism and Cybercrime Lab</h3><p className="descriptor">Undergraduate Research Assistant, October 2026 to present, East Lansing, MI</p><p>Develop a forensic biometric matching application used by state and local law enforcement, extending a vector-embedding identification system across Windows and macOS builds. Build data collection and classification pipelines under IRB protocol, covering scheduled collection, structured extraction from unstructured sources, and model-assisted coding with human review.</p></article>
+        <article className="experience"><h3>Stellantis</h3><p className="descriptor">AI / Software Development Intern, Summer 2026</p><p>Delivered internal AI tooling to three product development teams and the start-up business unit, supporting engineering work across the Jeep, Dodge, and SRT brands. Built retrieval-augmented generation systems in Databricks that made engineering documentation searchable, replacing manual search across roughly 16 TB of semi-sorted SharePoint and OneDrive content, and owned ingestion, chunking, embeddings, similarity search, and grounded generation. Presented the retrieval system to a company board including the CEO, and the work was handed to a permanent team to carry forward after the internship. An AI presentation formatting tool I shipped remains in production use by the team.</p></article>
+        <article className="experience"><h3>Stone Call LLC</h3><p className="descriptor">Founder, 2025 to present, Northville, MI</p><p>Operate an LLC shipping AI products end to end, owning product, architecture, infrastructure, and go-to-market.</p></article>
       </Section>
     </main>
     <Footer />
   </div>;
 }
+
